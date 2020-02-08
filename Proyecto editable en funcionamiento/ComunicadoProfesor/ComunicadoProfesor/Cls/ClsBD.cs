@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Windows.Forms;
+
 namespace ComunicadoProfesor.Cls
 {
     class ClsBD
@@ -23,6 +25,9 @@ namespace ComunicadoProfesor.Cls
             }
             catch (Exception ex)
             {
+                FrmAlert FrmAlerta = new FrmAlert("No se pudo conectar con la base de datos");
+                Form.ActiveForm.Close();
+                FrmAlerta.Show();
                 Console.WriteLine(ex.Message);
             }
 

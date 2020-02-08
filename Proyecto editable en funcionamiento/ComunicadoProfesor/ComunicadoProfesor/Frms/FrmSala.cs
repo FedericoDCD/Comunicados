@@ -39,19 +39,23 @@ namespace ComunicadoProfesor
         private void CargarComunicado() {//Carga por primera vez el último comunicado ingresado
             Cls.ClsUsuario ObjUsuario = new Cls.ClsUsuario();
             DataTable DTComunicados = ObjUsuario.BuscarComunicado();
-            if (DTComunicados.Rows.Count != 0)
-            {//Si existe un comunicado muestro el panel de comunicados y cargo el comunicado
-                PnlMensaje.Visible = true;
-                LblAutor.Text = "AUTOR: " + DTComunicados.Rows[0][0].ToString();
-                LblContenido.Text = DTComunicados.Rows[0][1].ToString();
-                Comunicado = LblContenido.Text;//Almaceno el comunicado como el más reciente
-                DateTime Fecha = DateTime.Parse(DTComunicados.Rows[0][2].ToString());
-                LblFecha.Text = Fecha.Day.ToString() + "/" + Fecha.Month.ToString() + "/" + Fecha.Year.ToString();
-                LblCreditos.Visible = false;
+            try{//si no puedo realizarlo sigo
+                if (DTComunicados.Rows.Count != 0)
+                {//Si existe un comunicado muestro el panel de comunicados y cargo el comunicado
+                    PnlMensaje.Visible = true;
+                    LblAutor.Text = "AUTOR: " + DTComunicados.Rows[0][0].ToString();
+                    LblContenido.Text = DTComunicados.Rows[0][1].ToString();
+                    Comunicado = LblContenido.Text;//Almaceno el comunicado como el más reciente
+                    DateTime Fecha = DateTime.Parse(DTComunicados.Rows[0][2].ToString());
+                    LblFecha.Text = Fecha.Day.ToString() + "/" + Fecha.Month.ToString() + "/" + Fecha.Year.ToString();
+                    LblCreditos.Visible = false;
+                }
+            
+                Thread Tr = new Thread(ComprobarComunicadosYFaltasConIngreso);//Comienzo a buscar por nuevo contenido
+                Tr.IsBackground = true;//Lo utilizo para que el hilo se cierre con el programa
+                Tr.Start();
             }
-            Thread Tr = new Thread(ComprobarComunicadosYFaltasConIngreso);//Comienzo a buscar por nuevo contenido
-            Tr.IsBackground = true;//Lo utilizo para que el hilo se cierre con el programa
-            Tr.Start();
+            catch { }
         }
         private void ComprobarComunicadosYFaltasConIngreso() {//Comprueba si hemos visto el comunicado más reciente
             Cls.ClsUsuario ObjUsuario = new Cls.ClsUsuario();
@@ -85,7 +89,6 @@ namespace ComunicadoProfesor
 
         private void BttnClose_Click(object sender, EventArgs e)
         {
-            
             Application.Exit();
         }
 

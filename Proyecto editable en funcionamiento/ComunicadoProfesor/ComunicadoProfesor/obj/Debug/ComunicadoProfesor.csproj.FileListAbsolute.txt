@@ -16,3 +16,21 @@ C:\Users\Federico\source\repos\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\S
 C:\Users\Federico\source\repos\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\System.Data.Common.dll
 C:\Users\Federico\source\repos\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\System.Data.SqlClient.dll
 C:\Users\Federico\source\repos\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\TableDependency.SqlClient.dll
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\ComunicadoProfesor.exe.config
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\ComunicadoProfesor.exe
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\ComunicadoProfesor.pdb
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\System.Data.Common.dll
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\bin\Debug\TableDependency.SqlClient.dll
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.csprojAssemblyReference.cache
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.FrmAlert.resources
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.FrmBienvenido.resources
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.FrmFuncionario.resources
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.FrmSala.resources
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.Properties.Resources.resources
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.csproj.GenerateResource.cache
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.csproj.CopyComplete
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.exe
+C:\Users\Federico\Documents\Comunicados\Proyecto editable en funcionamiento\ComunicadoProfesor\ComunicadoProfesor\obj\Debug\ComunicadoProfesor.pdb
