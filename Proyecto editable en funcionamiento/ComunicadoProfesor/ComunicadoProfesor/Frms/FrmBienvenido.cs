@@ -14,7 +14,7 @@ namespace ComunicadoProfesor
     public partial class FrmBienvenido : Form
     {
         private static Form MyForm;
-        private static int IndexUser = 0;//si es uno es un perfil administativo, si es 0 es una sala
+        private static int IndexUser = 1;//si es uno es un perfil administativo, si es 0 es una sala
         public FrmBienvenido()
         {
             InitializeComponent();
